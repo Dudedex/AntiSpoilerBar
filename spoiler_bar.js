@@ -1,5 +1,3 @@
-//TODO => make it possible that this can trigger content inside the iframe
-//Escaper => https://codebeautify.org/javascript-escape-unescape
 function addSpoilerBar() {
     var spoilerBarColor = '#35383d';
     var height = $('.gp-container').first().find('.gp-video').first().find('iframe').contents().find('.divaVideoContainerContent').height();
