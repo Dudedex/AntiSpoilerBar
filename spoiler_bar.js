@@ -1,6 +1,6 @@
 javascript:{
     function addSpoilerBar() {
-        var spoilerBarColor = '#35383d';
+        var spoilerBarColor = '#223344';
         var height = $('.gp-container').first().find('.gp-video').first().find('iframe').contents().find('.divaVideoContainerContent').height();
         var marginTop = height * 0.08;
         var borderSize = height * 0.1;
